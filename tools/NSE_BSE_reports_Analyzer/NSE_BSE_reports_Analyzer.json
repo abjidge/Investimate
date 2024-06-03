@@ -1,0 +1,10 @@
+{
+  "name": "a73c3d7d-313c-4bac-919b-f8c894fa6c38",
+  "displayName": "NSE_BSE_reports_Analyzer",
+  "description": "This tool fetches recent Conference Call reports of a stock, where they discuss their financial performance, typically following the release of quarterly or annual earnings reports. The primary purpose of these calls is to provide a detailed explanation of the company's financial results, discuss future outlooks, and answer questions from analysts and investors.",
+  "openApiSpec": {
+  
+  },
+  "schemas": [ "nse_bse_reports" ],
+  "toolType": "CUSTOMIZED_TOOL"
+}

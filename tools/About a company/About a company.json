@@ -1,0 +1,10 @@
+{
+  "name": "fc35ba2d-fce8-4986-8689-ba094153b972",
+  "displayName": "About a company",
+  "description": "This tool provide basic fundamental information about any company and key highlights of it.",
+  "openApiSpec": {
+  
+  },
+  "schemas": [ "nse_bse_reports" ],
+  "toolType": "CUSTOMIZED_TOOL"
+}

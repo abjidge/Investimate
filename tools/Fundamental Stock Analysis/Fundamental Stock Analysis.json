@@ -1,0 +1,10 @@
+{
+  "name": "a71ba464-4d12-4c52-bf26-865a1fd08fe2",
+  "displayName": "Fundamental Stock Analysis",
+  "description": "This tool returns the basic metrics of a stock. This data helps investors analyse the stock's performance and make informed investment decisions.",
+  "openApiSpec": {
+  
+  },
+  "schemas": [ "nse_bse_reports" ],
+  "toolType": "CUSTOMIZED_TOOL"
+}

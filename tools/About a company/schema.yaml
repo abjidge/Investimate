@@ -1,0 +1,41 @@
+openapi: 3.0.2
+info:
+  title: "Wikipedia Search function"
+  description: "A simple API that searches stock code from stock name"
+  version: "1.0.0"
+servers: 
+  - url: "https://us-central1-pivotal-equinox-423908-k7.cloudfunctions.net"
+
+paths:
+  /about_company: # name of the Cloud Function
+    post:
+      summary: "To get genral information of a company in stock market"
+      operationId: "about_company_stock"
+      requestBody:
+        description: Query
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/nse_bse_reports'
+      responses:
+        "200":
+          description: "A successful response"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  about:
+                    type: string
+                  key_points:
+                    type: string
+
+components:
+  schemas:
+    nse_bse_reports:
+      required:
+        - company name
+      type: object
+      properties:
+        company name:
+          type: string

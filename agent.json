@@ -1,0 +1,14 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "projectNumber": 358927342140,
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/358927342140/locations/us/collections/default_collection/engines/986b922a-b424-4984-b6bb-98922053602c"
+  },
+  "startPlaybook": "Analysis Steering"
+}

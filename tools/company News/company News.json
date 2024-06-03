@@ -1,0 +1,10 @@
+{
+  "name": "c9f6df06-9cc9-4fe2-b750-f95f1d90820a",
+  "displayName": "company News",
+  "description": "This tool gives latest news of any company.",
+  "openApiSpec": {
+  
+  },
+  "schemas": [ "news" ],
+  "toolType": "CUSTOMIZED_TOOL"
+}
